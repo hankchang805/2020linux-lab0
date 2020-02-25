@@ -170,6 +170,7 @@ void q_reverse(queue_t *q)
  * No effect if q is NULL or empty. In addition, if q has only one
  * element, do nothing.
  */
+/* compare the order of list element */
 bool less_than(list_ele_t *l, list_ele_t *r)
 {
     char *str_l = l->value;
